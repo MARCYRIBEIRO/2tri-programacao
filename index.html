@@ -11,16 +11,31 @@
 <body>
 
 <header class="cabecalho">
-<h1 class="cabecalho-titulo"> meu site </h1>
+    <h1 class="cabecalho-titulo"> loja </h1>
+    <span id="burguer" class="material-symbols-outlined"
+onclick="clickMenu()">menu</span>
+<nav id="menu" class="cabecalho-menu">
 
 <nav class="cabecalho-menu">
      <ul>
-        <li><a class="cabecalho-menu-item" href="#"> Item 1 </a></li>
-        <li><a class="cabecalho-menu-item" href="#"> Item 2 </a> </li>
-        <li><a class="cabecalho-menu-item" href="#"> Item 3 </a> </li>
+        <li><a class="cabecalho-menu-item" href="#"> informações </a></li>
+        <li><a class="cabecalho-menu-item" href="#"> amei </a> </li>
+        <li><a class="cabecalho-menu-item" href="#"> promoção </a> </li>
      </ul>
 </nav>
 </header>
+
+<img id="imagemuau" src="https://i.pinimg.com/564x/8b/9d/f2/8b9df2299c35b24489ded5f45db745c3.jpg">
+<script>
+
+    function clickMenu() {
+    if (menu.style.display == 'block') {
+    menu.style.display = 'none';
+    } else {
+    menu.style.display = 'block';
+    }
+    }
+    </script>
 
 </body>
 </html>

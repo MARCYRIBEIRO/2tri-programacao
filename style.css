@@ -1,5 +1,7 @@
 :root {
-  --cor-de-fundo: rgb(178, 146, 214);
+  --cor-de-fundo: rgba(134, 93, 181, 0.711);
+  --cor-de-cabecalho:rgb(128, 128, 201);
+  --cor-de-cabecalho: rgb(191, 98, 149);
 }
 
 body {
@@ -31,3 +33,17 @@ body {
     text-align: center;
     border-top: 1px solid;
 }
+.cabecalho-imagem{
+      width: 300px;
+}
+
+#burguer {
+  background-color: rgb(71, 71, 255);
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  }
+  #menu {
+  display: none;
+  }
